@@ -49,17 +49,11 @@ body {
     align-items: center;
     flex-direction: column;
     height: 60px;
-    border-color: none;
 }
-.menu ul li{
+.menu ul button{
     display: flex;
     justify-content: center;
     width: 100%;
-}
-.menu ul li a {
-    display: flex;
-    justify-content: center;
-    width: 150px;
     text-decoration: none;
     color: #747474;
     border: 1px solid #747474;
@@ -69,8 +63,10 @@ body {
     border-radius: 8px;
     font-size: var(--lg);
 }
-.menu ul li a:hover {
+    
+.menu ul button:hover {
     background-color: #ffea98;
+    cursor: pointer;
 }
 
 .simulator-page {
@@ -140,6 +136,36 @@ body {
 
 .buttons button:hover {
     background-color: #b4b4b4;
+}
+.leave-simulator-page {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.principal-page-button {
+    margin: 15px 120px;
+}
+
+.galerie-up {
+    display: flex;
+    align-items: center;
+}
+.galerie-up img {
+    width: 120px;
+    border-radius: 50px;
+    padding: 20px 30px;
+}
+
+.galerie-title {
+    background-color: #d3d1d1;
+    border-radius: 20px;
+    margin: 25px 25%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #90410E;
 }
 
 @media (max-width: 600px) {
