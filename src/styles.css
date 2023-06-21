@@ -34,14 +34,14 @@ body {
     font-weight: bold;
     color: #90410E;
 }
-.navbar-right {
+.menu {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
 }
-.navbar-left ul,
-.navbar-right ul {
+
+.menu ul {
     list-style: none;
     padding: 10px;
     margin: 0;
@@ -51,12 +51,12 @@ body {
     height: 60px;
     border-color: none;
 }
-.navbar-right ul li{
+.menu ul li{
     display: flex;
     justify-content: center;
     width: 100%;
 }
-.navbar-right ul li a {
+.menu ul li a {
     display: flex;
     justify-content: center;
     width: 150px;
@@ -69,10 +69,13 @@ body {
     border-radius: 8px;
     font-size: var(--lg);
 }
-.navbar-right ul li a:hover {
+.menu ul li a:hover {
     background-color: #ffea98;
 }
 
+.simulator-page {
+    display: none;
+}
 .simulator-container {
     display: flex;
     align-items: center;
@@ -125,15 +128,18 @@ body {
 }
 
 .buttons button {
-    width: 80px;
-    height: 24px;
+    width: 100px;
+    height: 28px;
     border-radius: 8px;
     border-color: none;
-    margin: 40px 24px;
+    margin: 38px 24px;
     font-size: large;
     color: #3b3b3b;
     font-weight: bold;
-    
+}
+
+.buttons button:hover {
+    background-color: #b4b4b4;
 }
 
 @media (max-width: 600px) {
