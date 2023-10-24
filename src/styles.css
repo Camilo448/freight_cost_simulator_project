@@ -137,10 +137,6 @@ body {
 .buttons button:hover {
     background-color: #b4b4b4;
 }
-.leave-simulator-page {
-    display: flex;
-    justify-content: flex-end;
-}
 
 .principal-page-button {
     margin: 15px 120px;
@@ -202,6 +198,23 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.how-we-are-page {
+    background-color: white;
+    display: none;
+    flex-direction: column;
+}
+
+.how-we-are-page__title {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #90410E; 
+}
+
+
 @media (max-width: 600px) {
     /* .navbar-right ul li a{
         width: 50%;
